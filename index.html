@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Document head - contains metadata and external resources -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Pankaj Kumar</title>
+    <!-- Link to external CSS stylesheet for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Main document body -->
+<body>
+    <!-- Header section with navigation and hero content -->
+    <header id="header">
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <!-- Navigation links that jump to different sections -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Hero section with main title and tagline -->
+        <div class="hero-content">
+            <h1>Pankaj Kumar</h1>
+            <p>B.Tech CSE Student | WEB & AI Enthusiast</p>
+        </div>
+    </header>
+    <br>
+    <!-- About section - personal introduction -->
+    <section id="about" class="container">
+        <h2>About</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>B.Tech Computer Science student with strong interpersonal insight and the ability to understand people effectively. Looking for a marketing-focused role where communication skills and client engagement can contribute to brand growth and enhanced customer satisfaction.</p>
+            </div>
+            <div class="image-container">
+                <img src="1757124504880.png" alt="Pankaj Kumar">
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Skills section - list of technical and soft skills -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Basic proficiency in Python</li>
+            <li>Basic proficiency in C++</li>
+            <li>Basic proficiency in Javascript</li>
+            <li>Basic proficiency in HTML & CSS</li>
+            <li>Familiar with ChatGPT for productivity and ideation</li>
+            <li class="more-skill">Understanding of tech tools used in digital communication</li>
+            <li class="more-skill">Exceptional communication skills</li>
+            <li class="more-skill">Strong emotional intelligence and people-reading abilities</li>
+            <li class="more-skill">Quick adaptability and teamwork</li>
+            <li class="more-skill">Creative thinking and problem-solving</li>
+        </ul>
+        <button id="toggle-skills" class="toggle-btn" aria-expanded="false">Show more</button>
+    </section>
+    <br>
+    <!-- Projects section - showcases achievements and activities -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <!-- Grid layout for project cards -->
+        <div class="project-grid">
+            <!-- Individual project card -->
+            <div class="project-card">
+                <h3>To-Do List App</h3>
+                <p>A simple To-Do List App using HTML, CSS, and JavaScript</p>
+            </div>
+            <!-- Individual project card -->
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website to showcase my skills and projects. Built with HTML and CSS, and it is fully responsive.</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Contact section - form for visitors to get in touch -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <!-- Contact form with input fields -->
+        <form id="contact-form">
+            <!-- Name input field -->
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <!-- Email input field -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <!-- Message textarea field -->
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <br>
+    <!-- Footer with copyright information -->
+    <footer>
+        <p>© 2026 Pankaj Kumar</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
